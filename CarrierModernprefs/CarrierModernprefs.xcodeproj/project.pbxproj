@@ -1,0 +1,146 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		8B27511E22B362FE00457173 /* CarrierNameChangerprefs.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CarrierNameChangerprefs.mm; sourceTree = "<group>"; };
+		8B27511F22B362FE00457173 /* entry.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = entry.plist; sourceTree = "<group>"; };
+		8B27512022B362FE00457173 /* fesseRootListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fesseRootListController.h; sourceTree = "<group>"; };
+		8B27512122B362FE00457173 /* fesseRootListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fesseRootListController.m; sourceTree = "<group>"; };
+		8B27512222B362FE00457173 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		8B27512322B362FE00457173 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8B27511822B362FD00457173 = {
+			isa = PBXGroup;
+			children = (
+				8B27511E22B362FE00457173 /* CarrierNameChangerprefs.mm */,
+				8B27511F22B362FE00457173 /* entry.plist */,
+				8B27512022B362FE00457173 /* fesseRootListController.h */,
+				8B27512122B362FE00457173 /* fesseRootListController.m */,
+				8B27512222B362FE00457173 /* Makefile */,
+				8B27512322B362FE00457173 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		8B27511D22B362FE00457173 /* CarrierNameChangerprefs */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 8B27512422B362FE00457173 /* Build configuration list for PBXLegacyTarget "CarrierNameChangerprefs" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/developer/Downloads/Monarch-master/Monarch/monarchtweak/CarrierNameChangerprefs";
+			dependencies = (
+			);
+			name = CarrierNameChangerprefs;
+			passBuildSettingsInEnvironment = 1;
+			productName = CarrierNameChangerprefs;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		8B27511922B362FD00457173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 8B27511C22B362FD00457173 /* Build configuration list for PBXProject "CarrierNameChangerprefs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B27511822B362FD00457173;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B27511D22B362FE00457173 /* CarrierNameChangerprefs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		8B27511A22B362FD00457173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		8B27511B22B362FD00457173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		8B27512522B362FE00457173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = CarrierNameChangerprefs;
+			};
+			name = Debug;
+		};
+		8B27512622B362FE00457173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = CarrierNameChangerprefs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B27511C22B362FD00457173 /* Build configuration list for PBXProject "CarrierNameChangerprefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B27511A22B362FD00457173 /* Debug */,
+				8B27511B22B362FD00457173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B27512422B362FE00457173 /* Build configuration list for PBXLegacyTarget "CarrierNameChangerprefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B27512522B362FE00457173 /* Debug */,
+				8B27512622B362FE00457173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B27511922B362FD00457173 /* Project object */;
+}

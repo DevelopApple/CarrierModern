@@ -1,0 +1,13 @@
+Package: com.yakir.carriermodern
+Name: CarrierModern
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Change carrier name in statusbar!
+Maintainer: DevelopApple
+Author: DevelopApple
+Section: StatusBar
+Icon: https://github.com/DevelopApple/CarrierModern/blob/master/icon%402x.png
+Depiction:
+Support:
+Tag: purpose::tweak, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
